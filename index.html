@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protótipo Portfólio</title>
+    <style>
+        body{
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        .container{
+            display: grid;
+            grid-auto-flow: column; /*divisão das div filhas em colunas*/
+            grid-auto-columns: 1fr; /*medida para as colunas que irão ocupar toda a 
+            extensão da página*/
+            }
+        #header{
+            font-family:Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 42px;
+            color: black; /*formatação de fontes */
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        #menu {
+            text-align: right;
+            margin-top: 49px;
+        }
+        #menu ul {
+            list-style-type: none; /*Remove marcador de lista ordenada*/
+            margin: 0;
+            padding: 0 30px 0; /*espaçamento entre a borda da Div e o conteúdo*/
+            text-align: center;
+        }
+        #menu li {
+            display: inline-block; /*ordenada itens de lista em linhas*/
+            margin-left: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        #buttonCta {
+            background: blue;
+            border-radius: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: antiquewhite;
+            padding: 10px 25px 10px 25px;
+        }
+        #headerCta p {
+            font-family: Arial, Helvetica, sans-serif ;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            color: black;
+        }
+        #headerCta h1 {
+            font-family: Arial, Helvetica, sans-serif ;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 45px;
+            color: black;
+
+        }
+        #headerImg {
+            margin-left: 42px;
+            margin-top: 30px;
+        }
+        #headerImg img { /*declarar id, usa-se #*/
+            width: 70%;
+            border-radius: 50px;
+        }
+        h2.blue{ /*declarar classe com ponto, que pode ser em inicio ou ao meio*/
+            font-family: Arial, Helvetica, sans-serif ;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            color:blue;
+        }
+        h1.black{
+            font-family: Arial, Helvetica, sans-serif ;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 54px;
+            color:black;
+            margin-top: 0;  
+        }
+        .textCenter{
+            padding: 0 60px 60px 0;
+            font-family: Arial, Helvetica, sans-serif ;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            color:black;
+            margin-top: 0;
+
+        }
+       
+    </style><!--Tag para estilização em CSS-->
+</head><!--cabeça do documento que é lida primeiro-->
+<body>
+    <div class="container">  <!--criasse uma classe para divisão específica-->
+        <div class="header">
+            <h1><b>PORTFÓLIO</b></h1>
+        </div>
+        <div id="menu">
+            <ul> <!--cria lista não ordenada-->
+                <li><a target="_blank" href="https://www.linkedin.com/in/josiane-de-sousa-santos-fernandes-b8b107211/"><b>Contato</b></a></li><!--cria item indivual da lista-->
+                <li><a target="_blank" href="https://github.com/JosyFernandes25"><b>Portfólio</b></a></li><!--item criado e realçado em negrito-->
+            </ul>
+            <!--target blank: abre pagina em novo navegador-->
+        </div>
+    </div>
+    <div class="container">
+        <div id="headerCta">
+                <h1>
+                    Olá, meu nome<br>
+                é Josi Fernandes</h1>
+                <p> Sou Quality Assurance e gostaria de apresentar<br>
+                meu trabalho a vocês através deste Portfólio. 
+            </p>
+                 <a id="buttonCta" href="">Meus Serviços</a>
+            </div>
+            <div id="headerImg">
+                <img src="profile.jpg"> <!--indica localização do arquivo-->
+        </div>   
+    </div>
+    <div class="container">
+        <div id="services"> <!--Id é indicado para definição de local de div-->
+            <h2 class="blue">Conheça</h2>
+        <h1 class="black">Meus Serviços</h1>
+        </div>   
+    </div>
+    <div class="container">
+        <div class="textCenter">
+          <h3><b>HTML<br>
+        e CSS</b></h3>
+        <p>Possuo conhecimentos sobre estruturação e
+            estilização utilizando esta escrita.
+        </p>
+        </div>
+        <div class="textCenter">
+            <h3><b>Automação em<br>
+            Java/Selenium</b></h3>
+            <i class="fa-brands fa-java"></i>
+            <p>Experiência breve em testes Automatizados.</p>
+        </div>
+        <div class="textCenter">
+            <h3><b>Banco de dados<br>
+            MySQL</b></h3>
+            <p> Conhecimentos sobre comandos em MySQL para
+                realização de teste de banco de dados.
+            </p>
+            </div>
+        <div class="textCenter">
+            <h3><b>Api's:<br>
+            Postman<b></h3>
+                <p>Testes de Back-End com uso do
+                    Postman.</p> <!--paragrafo-->
+        </div>
+    </div>
+</body>
+</html>
