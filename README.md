@@ -1,5 +1,5 @@
 ### 🔍Montagem de meu site Portfólio🔍
-**_Site criado para aperfeiçoamento de técnicas de CSS, proposta do curso da DNC, em 2022._**
+**_Site criado para aperfeiçoamento de técnicas de CSS sob proposta do curso da DNC, em 2022._**
 
 ### Foco em técnicas:
 
