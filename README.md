@@ -5,13 +5,13 @@
 
 **🌈 Aperfeiçoamento de cores, bordas, colunas, margens e estilos de fontes com CSS.**
 
-**🖼 Adição de imagem a página**
+**🖼 Adição de imagem na página.**
 
 **🛎 Adição de botão "Meus Serviços" para possível interação.**
 
 **🔍 Adição de Links de endereços.**
 
-**🖇 Organização da página através de Id individual de Div's criadas no campo Style.**
+**🖇 Organização da escrita CSS através de Id individual de Div's e classes criadas no campo Style.**
 
 
 
